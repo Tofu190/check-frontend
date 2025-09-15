@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ระบบเช็คชื่อ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📌 ระบบเช็คชื่อนักเรียน</h1>
+
+  <form id="checkinForm">
+    <input type="text" id="name" placeholder="ชื่อนักเรียน" required>
+    <select id="status">
+      <option value="มาเรียน">มาเรียน</option>
+      <option value="สาย">สาย</option>
+      <option value="ขาด">ขาด</option>
+    </select>
+    <button type="submit">บันทึก</button>
+  </form>
+
+  <h2>📊 รายงานการเช็คชื่อ</h2>
+  <ul id="report"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
